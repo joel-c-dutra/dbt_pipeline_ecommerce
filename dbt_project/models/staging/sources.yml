@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    schema: raw
+    description: "Dados brutos do e-commerce Olist carregados via script Python."
+    tables:
+      - name: olist_orders_dataset
+        description: "Tabela contendo os cabeçalhos de todos os pedidos."
+      - name: olist_products_dataset
+        description: "Catálogo de produtos vendidos."
+      - name: olist_customers_dataset
+        description: "Informações cadastrais dos clientes."

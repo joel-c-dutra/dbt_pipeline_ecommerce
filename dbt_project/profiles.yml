@@ -1,0 +1,10 @@
+# Nome do perfil que deve ser o mesmo do dbt_project.yml
+ecommerce_profile:
+  outputs:
+    dev:
+      type: duckdb
+      # Caminho relativo para sair de dbt_project e entrar em data
+      path: "../data/dados.duckdb"
+      schema: main
+      threads: 1
+  target: dev
