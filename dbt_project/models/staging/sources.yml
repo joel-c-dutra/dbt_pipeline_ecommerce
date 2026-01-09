@@ -11,3 +11,5 @@ sources:
         description: "Catálogo de produtos vendidos."
       - name: olist_customers_dataset
         description: "Informações cadastrais dos clientes."
+      - name: olist_order_items_dataset
+        description: "Itens individuais de cada pedido (preços e fretes)."  
